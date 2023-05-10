@@ -1,3 +1,4 @@
+//Time Complexity: O(N^2), Space Complexity: O(1)
 class Solution {
     public int findNumbers(int[] nums) {
         int evenCount = 0;
@@ -19,4 +20,20 @@ class Solution {
         return count;
     
     }
+}
+
+//Alternate Solution
+//Time Complexity: O(N), Space Complexity: O(1)
+
+class Solution2 {
+    public int findNumbers(int[] nums) {
+        int evenCount = 0;
+        for (int i =0; i<nums.length; i++){
+            if(Integer.toString(nums[i]).length()%2 ==0){
+                evenCount++;
+            }
+        }
+        return evenCount;
+    }
+    
 }
