@@ -1,5 +1,5 @@
 //Time Complexity: O(3N)-->O(N)
-//Space Complexity: O(2N) -->O(N) as I am suing 2 lists
+//Space Complexity: O(2N) -->O(N) as I am using 2 lists. The question asks for O(1) Space complexity which is a criteria I am not satisfying.
 class Solution {
     public boolean isPalindrome(ListNode head) {
         ListNode curr = head;
