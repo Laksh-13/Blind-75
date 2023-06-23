@@ -1,5 +1,5 @@
                                      //Solution 2
-//Time: O(N), Space: O(1)
+//Time Compleixty : O(N), Space Compleixty: O(1)
 public boolean isPalindrome(String s) {
         
     int i = 0;
