@@ -8,6 +8,6 @@ class Solution {
         for(int factor: new int[] {2, 3, 5})
             while(n % factor == 0)
                 n = n / factor;
-        return n == 1;
+        return n == 1; // 1 is an ugly number
     }
 }
